@@ -1,0 +1,37 @@
+# Build
+build/
+cmake-build-*/
+out/
+
+# Compiled plugins
+*.dll
+*.so
+*.dylib
+*.obj
+*.o
+*.a
+*.lib
+*.exp
+*.pdb
+*.ilk
+
+# IDE
+.vs/
+.vscode/
+*.vcxproj*
+*.sln
+*.suo
+*.user
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Nuke
+*.nk~
+*.autosave
