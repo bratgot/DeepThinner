@@ -18,8 +18,6 @@ DeepThinner reduces deep sample counts per pixel through seven independent, arti
 
 1. Download the correct plugin for your platform:
    - **Windows:** `DeepThinner.dll`
-   - **Linux:** `DeepThinner.so`
-   - **macOS:** `DeepThinner.dylib`
 
 2. Copy the plugin file to one of the following locations:
    - Your personal Nuke directory: `~/.nuke/` (Linux/macOS) or `%USERPROFILE%\.nuke\` (Windows)
@@ -147,7 +145,7 @@ DeepThinner/
 ## Compatibility
 
 - **Nuke 16.0v1+** (built against the Nuke 16 NDK)
-- Tested on Windows 10/11, CentOS/Rocky 8/9, macOS 13+
+- Tested on Windows 11, 
 - Passes through all channels unchanged — safe for any deep pipeline
 
 ---
